@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import '../services/sizes.dart';
+import '../../services/sizes.dart';
 
 class CalendarDays extends StatelessWidget{
   final String day;
