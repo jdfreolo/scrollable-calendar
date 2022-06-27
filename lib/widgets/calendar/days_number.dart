@@ -88,3 +88,16 @@ class CalendarDayNumber extends StatelessWidget{
     );
   }
 }
+
+class CalendarDayNumberBlank extends StatelessWidget{
+  const CalendarDayNumberBlank({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context){
+    final double size = getDaySizeScroll(context);
+    return SizedBox(
+      width: size,
+      height: size,
+    );
+  }
+}
