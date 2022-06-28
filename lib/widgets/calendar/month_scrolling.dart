@@ -6,6 +6,7 @@ import '../../services/days.dart';
 import '../../services/months.dart';
 import 'days.dart';
 
+/// Vertically displays the calendar on month view
 class CalendarMonthViewScroll extends StatefulWidget{
   final int month;
   final int year;

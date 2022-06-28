@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../../services/sizes.dart';
 import '../dashed/dashed_circle_widget.dart';
 
+/// Displays the day calendar
 class CalendarDayNumber extends StatelessWidget{
   final int day;
   final Color color;
@@ -89,6 +90,7 @@ class CalendarDayNumber extends StatelessWidget{
   }
 }
 
+/// Hides the day calendar
 class CalendarDayNumberBlank extends StatelessWidget{
   const CalendarDayNumberBlank({Key? key}) : super(key: key);
 

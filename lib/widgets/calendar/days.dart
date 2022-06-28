@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../../services/sizes.dart';
 
+/// Displays the calendar on day view
 class CalendarDays extends StatelessWidget{
   final String day;
   final Color color;

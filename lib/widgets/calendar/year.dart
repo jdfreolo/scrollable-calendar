@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'month.dart';
 
+/// Displays the calendar in year view
 class CalendarYearView extends StatelessWidget{
   final int year;
   final VoidCallback onTap;

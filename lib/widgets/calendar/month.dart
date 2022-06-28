@@ -4,6 +4,7 @@ import '../../services/date_calculator.dart';
 import '../../services/months.dart';
 import 'days_number.dart';
 
+/// Displays the calendar in month view
 class CalendarMonthView extends StatelessWidget{
   final int month;
   final int year;
