@@ -25,6 +25,8 @@ double getDayNumberSize(BuildContext context){
   return screenSize(context) == ScreenSizes.small ? 12.0 : 16.0;
 }
 
+
+/// Gets the screen size and provide the day's view size
 double getDaySizeScroll(BuildContext context){
   return screenSize(context) == ScreenSizes.small ? 45.0 : 50.0;
 }
