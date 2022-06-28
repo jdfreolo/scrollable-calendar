@@ -1,7 +1,6 @@
 name: scrollable_calendar
 description: A scrollable and highly customizable widget for Flutter.
 version: 0.0.1
-author: Jan Deanver Freolo <jd.freolo@gmail.com>
 homepage: https://github.com/jdfreolo/scrollable-calendar
 issue_tracker: https://github.com/jdfreolo/scrollable-calendar/issues
 
